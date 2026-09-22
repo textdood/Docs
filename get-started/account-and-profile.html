@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Account and profile · Dood Docs</title>
+    <meta
+      name="description"
+      content="Manage your Dood account, display preferences, life mode, connections, notifications, and billing from profile settings."
+    />
+    <link rel="icon" href="../Dood_logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/docs.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="../index.html">
+          <img
+            class="brand__logo"
+            src="../Dood_logo.svg"
+            width="28"
+            height="28"
+            alt=""
+          />
+          <span class="brand__name">Dood Docs</span>
+        </a>
+
+        <label class="header-search" for="header-search">
+          <svg
+            class="header-search__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M11.5 11.5L14 14M7 12A5 5 0 1 1 7 2a5 5 0 0 1 0 10Z"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+          <input
+            id="header-search"
+            class="header-search__label"
+            type="search"
+            placeholder="Search docs"
+            autocomplete="off"
+            data-search
+          />
+          <kbd class="kbd" aria-hidden="true">/</kbd>
+        </label>
+      </div>
+    </header>
+
+    <div class="page-shell">
+      <aside class="side-nav" aria-label="Get started">
+        <a class="side-nav__home" href="../index.html">← All docs</a>
+        <p class="side-nav__label">Get started</p>
+        <ul class="side-nav__list">
+          <li><a href="what-is-dood.html">What is Dood?</a></li>
+          <li><a href="quick-start.html">Quick start</a></li>
+          <li>
+            <a href="account-and-profile.html" aria-current="page"
+              >Account and profile</a
+            >
+          </li>
+          <li><a href="concepts-overview.html">Concepts overview</a></li>
+        </ul>
+      </aside>
+
+      <article class="article">
+        <p class="article__crumb">
+          <a href="../index.html">Docs</a> / Get started
+        </p>
+        <h1 class="article__title">Account and profile</h1>
+        <p class="article__lead">
+          Your profile is the control panel for identity, coach intensity,
+          connected apps, and how Dood reaches you.
+        </p>
+
+        <p>
+          Open <strong>Profile</strong> from the dashboard to manage settings.
+          Sections below match how the settings page is organized.
+        </p>
+
+        <h2 id="account">Account</h2>
+        <p>
+          Account covers the basics tied to your login: display name, username,
+          and email. Sign out from here when you need to switch devices or
+          accounts.
+        </p>
+        <ul>
+          <li>
+            <strong>Display name</strong> — How Dood and the coach address you
+          </li>
+          <li>
+            <strong>Username</strong> — Your handle inside the product
+          </li>
+          <li>
+            <strong>Email</strong> — The address used for auth and account mail
+          </li>
+        </ul>
+
+        <h2 id="display">Display</h2>
+        <p>
+          Choose how the web app looks. Theme options live here so you can keep
+          Dood readable in light or dark environments without changing coach
+          behavior.
+        </p>
+
+        <h2 id="preferences">Preferences</h2>
+        <p>
+          Preferences shape how ambitious and intense Dood feels day to day —
+          especially <strong>life mode</strong>, which sets how often the coach
+          reaches out, how blunt messages are, and how much rest gets planned
+          into your week.
+        </p>
+        <div class="callout">
+          <p class="callout__title">Life mode</p>
+          <p>
+            You picked this during onboarding. Changing it later is normal —
+            dial intensity up when you want pressure, or down when life is
+            already loud.
+          </p>
+        </div>
+
+        <h2 id="connections">Connections</h2>
+        <p>
+          Connections are the bridges between Dood and the rest of your stack:
+        </p>
+        <ul>
+          <li>
+            <strong>Messaging</strong> — Discord, SMS, and other channels the
+            coach can use
+          </li>
+          <li>
+            <strong>Calendar &amp; fitness</strong> — Google Calendar, Strava,
+            and similar integrations that feed real-world context
+          </li>
+          <li>
+            <strong>AI models</strong> — Options for web planning and bot
+            behavior where available on your plan
+          </li>
+        </ul>
+
+        <h2 id="notifications">Notifications</h2>
+        <p>
+          Reminder and nudge preferences control when Dood is allowed to
+          interrupt you. Use these to set quiet expectations — caps, channels,
+          and reminder style — so accountability stays helpful instead of noisy.
+        </p>
+
+        <h2 id="billing-and-plan">Billing and plan</h2>
+        <p>
+          Plan and billing settings show what you’re on and let you manage
+          subscription details (including checkout and customer portal flows
+          when applicable). Pricing pages in the app describe what’s included on
+          each tier.
+        </p>
+
+        <h2 id="danger-zone">Danger zone</h2>
+        <p>
+          Destructive account actions (like deleting data) live behind an
+          explicit confirmation flow. Treat these as permanent — export or
+          disconnect integrations first if you need a soft exit.
+        </p>
+
+        <h2 id="related">Related</h2>
+        <ul>
+          <li>
+            New here?
+            <a href="quick-start.html">Quick start</a> walks through first-run
+            setup.
+          </li>
+          <li>
+            Need vocabulary?
+            <a href="concepts-overview.html">Concepts overview</a> defines
+            goals, blocks, streaks, and more.
+          </li>
+        </ul>
+
+        <nav class="article-nav" aria-label="Article">
+          <a class="article-nav__prev" href="quick-start.html">
+            <span>Previous</span>
+            Quick start
+          </a>
+          <a class="article-nav__next" href="concepts-overview.html">
+            <span>Next</span>
+            Concepts overview
+          </a>
+        </nav>
+      </article>
+    </div>
+
+    <footer class="site-footer">
+      <p>
+        Dood Docs — Day One or One Day.
+        <a href="https://github.com/DunsinK" rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
+    </footer>
+
+    <script src="../js/docs.js"></script>
+  </body>
+</html>
